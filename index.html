@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <title>Andrew Virts</title>
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--My stylesheet-->
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="mailto:andrewcvirts@gmail.com"">Andrew Virts</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active nav-items middle resume" href="images/Andrew_Virts_Resume.pdf" download>
+                        My Resume </a>
+                    <a class="nav-link active nav-items middle github" aria-current="page"
+                        href="https://github.com/acvirts23">Github</a>
+                    <a class="nav-link active nav-items middle linkedIn"
+                        href="https://www.linkedin.com/in/andrew-virts/">LinkedIn</a>
+                    <a class="btn nav-items mailbtn rounded-0" btn-layered offset square
+                        href="mailto:andrewcvirts@gmail.com">Email me</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--End Navbar-->
+    <div class="allcontent">
+        <!--Start all content-->
+        <div id="header">
+            <!--Start header-->
+            <h1 class="">Hey, I'm Andrew - A Software<br> Engineer from Lancaster.</h1>
+            <p>A recent graduate from Millersville University pursuing my passion for software development.
+                I have created several large-scale full-stack applications. <strong>YelpCamp</strong>, an application where you can view campgrounds
+                from all over the country, and even create your own. Comment on campgrounds, review/rate them, and view
+                them on a cool interactive map similar to that of apple & google maps.<br>
+                I have also created a <strong>UML diagram editor</strong>, a tool to help you organize and visualize your systems. Create classes, functions, variables/attributes, and add relationships between classes. This UML diagram editor was completed among a team, with a 4.5 month
+                time-constraint where we worked closely with a client to meet his requirements. Version control using git was necessary, and we utilized
+                agile scrum methodologies to organize and tackle tasks.
+            </p>
+            <a href="mailto:andrewcvirts@gmail.com" class="email-link">andrewcvirts@gmail.com</a>
+        </div>
+        <!--End header-->
+        <div class="d-flex justify-content-start" id="featured">
+            <!--Start Body/featured-->
+            <div class="container">
+                <!--Start Container-->
+                <div class="row">
+                    <h2 class="section-title">Featured Work.</h2>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="yelpcamp">
+                        <div class="card shadow mb-4">
+                            <img src="images/yelpcamp.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class='cardHeaderYelp'>
+                                    <h5 class="card-title">YelpCamp</h5>
+                                </div>
+                                <p class="card-text">View campgrounds from all over the country.<br> Add a campground of your own,
+                                    comment on other campgrounds, and rate them if you've been there before.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="uml">
+                        <div class="card shadow mb-4">
+                            <img src="images/UML.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="cardHeaderUml">
+                                    <h5 class="card-title">UML Diagram Editor</h5>
+                                </div>
+
+                                <p class="card-text">UML Diagram Editor to help you visualize your systems.<br>
+                                    Create classes, functions, variables, and add relationships.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id='pingpong'>
+                        <div class="card shadow mb-4">
+                            <img src="images/pingpong.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="cardHeaderPong">
+                                    <h5 class="card-title w-100">Ping Pong ScoreKeeper</h5>
+                                </div>
+                                <p class="card-text">Keep track of your intense ping pong games!<br>
+                                Update each players score, and watch the confetti fly when someone wins.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id='website'>
+                        <div class="card shadow mb-4">
+                            <img src="images/website.jpeg" class="card-img-top website" alt="...">
+                            <div class="card-body">
+                                <div class="cardHeaderPong">
+                                    <h5 class="card-title w-100">Responsive Website</h5>
+                                </div>
+                                <p class="card-text">A simple and basic website demonstrating how I can build a very sleek looking
+                                    responsive website. This website is very easy to view on all screen sizes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Container-->
+        </div>
+        <!--End Body/featured-->
+
+    </div>
+    <!--End all content-->
+
+    <!--Bootstrap JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!--My JavaScript-->
+    <script src="app.js"></script>
+</body>
+
+</html>

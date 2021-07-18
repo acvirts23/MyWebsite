@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 2px solid black;
+    transition: margin-right 2s ease-in-out .5s;
+}
+h1{
+    font-size: 35px;
+    font-family: CircularStd,sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-family: CircularStd,sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.allcontent {
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-right: 50px;
+}
+
+#header {
+    
+    width: 65%;
+}
+
+#featured{
+    margin-top: 100px;
+}
+
+.navbar {
+    border-bottom: 1px solid black;
+    font-family: CircularStd,sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding: 15px;
+}
+
+.nav-items {
+    margin-right: 25px;
+    letter-spacing: 0px;
+}
+
+.navbar-brand{
+    transition: all .2s ease-in-out;
+    
+}
+
+.navbar-collapse{
+    color: black;
+}
+
+.btn{
+    box-sizing: border-box;
+    font-family: CircularStd,sans-serif;
+    border: 2px solid #42776a;
+    font-size: 10pt;
+    font-weight: 500;
+    padding: 10px 26px;
+    transition: .1s ease-out;
+    color: #42776a;
+    letter-spacing: 0px;
+    border: 2px solid #42776a;
+    box-shadow: 6px 4px #42776a;
+    /* transition: <property> <duration> <timing-function> <delay>; */
+    transition: all .2s ease-in-out 0s;
+}
+
+.middle {
+    font-size: 1.1em;
+    position: relative;
+    padding-bottom: 0px;
+}
+
+
+.email-link{
+    color: black;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    padding: 4px 4px;
+    border-bottom: 1px solid #000;
+    font-size: 18px;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+}
+
+.email-link:hover{
+    background: black;
+    color: white;
+    
+}
+
+.card{
+    background-color: white;
+    height: 31em;
+    transition: all 0.2s ease-in-out;
+    border-width: 3px;
+}
+
+.website{
+    height: auto;
+    overflow: auto;
+}
+
+.card-text{
+    font-weight: 400;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.card-title{
+    border-bottom: 2px solid darkgray;
+}
+
+.card:hover{
+    border-color: black;
+    cursor: pointer;
+    transform: scale(1.01);
+}
+.card:hover .card-title{
+    border-bottom: 2px solid black;
+}
+
+@media (min-width: 992px) {
+    .navbar-brand:hover{
+        transform: scale(1.1);
+    }  
+    .btn:hover{
+        color: #42776a;
+        box-shadow: 0px 0px;
+    }
+    .middle:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #42776a;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .middle:hover::before {
+        visibility: visible;
+        transform: scaleX(1);
+    }
+}
+
+@media (max-width: 992px){
+    .middle{
+        border-bottom: 1px solid black;
+        justify-content: center;
+        margin-bottom: 6px;
+    }
+    .github{
+        width: 65px;
+    }
+    .linkedIn{
+        width: 85px;
+    }
+    .navbar-brand:hover{
+        cursor:initial;
+    }
+    .middle:hover{
+        border-bottom-width: 3px;
+    }
+    .btn{
+        margin-top: 15px;
+        width: 200px;
+    }
+    .btn:hover{
+        color: #42776a;
+        box-shadow: 0px 0px;
+    }
+}
+@media (min-width: 1200px){
+    .card{
+        height: 35rem;
+    }
+}
+@media (max-width: 992px){
+    .card{
+        height: 28rem;
+    }
+}
+@media (max-width: 767px){
+    .card{
+        height: 34rem;
+    }
+}
