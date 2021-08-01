@@ -1,7 +1,7 @@
 const yelpCamp = document.querySelector('#yelpcamp');
 const umlDiagram = document.querySelector('#uml');
 const pingpong = document.querySelector('#pingpong');
-const website = ducment.querySelector('#website')
+const website = document.querySelector('#website')
 
 yelpCamp.addEventListener('click', yelpRedirect);
 umlDiagram.addEventListener('click', umlRedirect);

@@ -168,6 +168,9 @@ h2 {
     .linkedIn{
         width: 85px;
     }
+    .resume{
+        width: 105px;
+    }
     .navbar-brand:hover{
         cursor:initial;
     }
@@ -195,6 +198,6 @@ h2 {
 }
 @media (max-width: 767px){
     .card{
-        height: 34rem;
+        height: 28rem;
     }
 }
